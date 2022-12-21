@@ -22,7 +22,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class TC2_Login extends BaseClass {
+public class TC2_Login_DD extends BaseClass {
     @Test(dataProvider = "logins")
     public void LoginDDTest(String email, String password) {
         Dashboard dashboard = new Dashboard(driver);

@@ -51,7 +51,7 @@ public class TC1_Register extends BaseClass {
 
     }
     @Test(priority = 3)
-    public void checkAdminPage() {
+    public void checkAdminPage() throws InterruptedException {
         LoginPage lp = new LoginPage(driver);
         lp.getPage();
         lp.setUsername("admin");

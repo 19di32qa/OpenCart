@@ -10,6 +10,44 @@
                     <include name="checkAdminPage"/>
                 </methods>
             </class>
+            <class name="demoOpenCard.TestCases.TC2_Login_DD">
+                <methods>
+                    <include name="LoginDDTest"/>
+                </methods>
+            </class>
+            <class name="demoOpenCard.TestCases.TC3_AdminLogin_DD">
+                <methods>
+                    <include name="loginAsAdmin"/>
+                </methods>
+            </class>
+            <class name="demoOpenCard.TestCases.TC4_AddCustomer">
+                <methods>
+                    <include name="AddCustomerViaAdministrator"/>
+                    <include name="loginAsNewCustomer"/>
+                </methods>
+            </class>
+            <class name="demoOpenCard.TestCases.TC5_AddCustomersDD">
+                <methods>
+                    <include name="AddCustomers"/>
+                </methods>
+            </class>
+            <class name="demoOpenCard.TestCases.TC6_CheckCustomersInDataBase">
+                <methods>
+                    <include name="dataBaseTest"/>
+                </methods>
+            </class>
+            <class name="demoOpenCard.TestCases.TC7_DeleteCustomerViaAdminGUI">
+                <methods>
+                    <include name="deleteCustomer"/>
+                    <include name="CheckDataBase"/>
+                </methods>
+            </class>
+            <class name="demoOpenCard.TestCases.TC8_DeleteAllCustomers">
+                <methods>
+                    <include name="deleteAllCustomers"/>
+                    <include name="CheckDataBase"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

@@ -20,7 +20,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class TC3_AdminLogin extends BaseClass {
+public class TC3_AdminLogin_DD extends BaseClass {
     // There is a bug , the system doesn't see difference between admin and Admin , the system is case-insensitive
     @Test(dataProvider = "logins")
     public void loginAsAdmin(String userName, String password) throws Exception {

@@ -22,6 +22,7 @@ public class SideBar {
     }
     public WebElement getCustomers() {
         WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
-        return wait.until(ExpectedConditions.presenceOfElementLocated(customers));
+        wait.until(ExpectedConditions.presenceOfElementLocated(customers));
+        return wait.until(ExpectedConditions.elementToBeClickable(customers));
     }
 }

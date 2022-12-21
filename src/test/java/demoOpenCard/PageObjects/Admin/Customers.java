@@ -16,6 +16,18 @@ public class Customers {
     private final By filter_name = By.name("filter_name");
     private final By filterBTN = By.xpath("//button[@id=\"button-filter\"]");
     private final By addNewBtn = By.xpath("//div[@class=\"float-end\"]//a[@class=\"btn btn-primary\"]");
+    private final By selectAll = By.xpath("//td//*[text()=\"Customer Name\"]/ancestor::tr//input");
+    private final By deleteBtn = By.xpath("//i[@class=\"fa-regular fa-trash-can\"]");
+
+    public WebElement getDeleteIcon() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(deleteBtn));
+    }
+
+    public void selectAllCustomers() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.presenceOfElementLocated(selectAll)).click();
+    }
 
     public WebElement getAddNewCustomer() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));

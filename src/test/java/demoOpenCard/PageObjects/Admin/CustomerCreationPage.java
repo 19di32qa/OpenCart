@@ -20,6 +20,18 @@ public class CustomerCreationPage {
     private final By confirm = By.name("confirm");
     private final By saveBtn = By.xpath("//button[@type=\"submit\"]");
     private final By successMessage = By.xpath("//div[@class = \"alert alert-success alert-dismissible\"]");
+    private final By telephone = By.name("telephone");
+    private final By newsletter = By.xpath("//input[@type=\"checkbox\" and @name=\"newsletter\"]");
+
+    public WebElement getNewsLetter() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(newsletter));
+    }
+
+    public WebElement getTelephone() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(telephone));
+    }
 
     public WebElement getSuccessMessage() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));

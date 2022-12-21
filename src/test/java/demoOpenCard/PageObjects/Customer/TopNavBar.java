@@ -13,9 +13,20 @@ public class TopNavBar {
     public TopNavBar(WebDriver driver) {
         this.driver = driver;
     }
-    private final By myAccount = By.xpath("//*[text()=\"My Account\"]");
+    private final By myAccount = By.xpath("//span[text()=\"My Account\"]");
     private final By registerOption = By.xpath("//*[text()=\"Register\"]");
     private final By loginOption = By.xpath("//div[@class = \"dropdown\"]//a[text() = \"Login\"]");
+    private final By logOut = By.xpath("//div[@class=\"dropdown\"]//a[text()=\"Logout\"]");
+
+    public WebElement getLogOut() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(logOut));
+    }
+    public void BaseLogOut() {
+        getMyAccount().click();
+        getLogOut().click();
+        //driver.manage().deleteAllCookies();
+    }
 
     public WebElement getMyAccount() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));

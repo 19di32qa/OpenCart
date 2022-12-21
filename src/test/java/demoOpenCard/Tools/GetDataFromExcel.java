@@ -36,7 +36,7 @@ public class GetDataFromExcel {
                 }
                 else {
                     int value = (int) Math.round(cell.getNumericCellValue());
-                    data[l][j] = value;
+                    data[l][j] = String.valueOf(value);
                 }
             }
             l++;
