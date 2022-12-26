@@ -18,6 +18,11 @@ public class CustomerLoginPage {
     private final By loginBtn = By.xpath("//button[@type = \"submit\"]");
     private final By invalidLoginWarning = By.xpath("//*[text()=\" Warning: No match for E-Mail Address and/or Password. \"]");
 
+    public void BaseLogin() {
+        getEmail().sendKeys("AlexiosGor+1@example.com");
+        getPassword().sendKeys("12345678");
+        getLoginBtn().click();
+    }
     public WebElement getEmail() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         return wait.until(ExpectedConditions.presenceOfElementLocated(email));

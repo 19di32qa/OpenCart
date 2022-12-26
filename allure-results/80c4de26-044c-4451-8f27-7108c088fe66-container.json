@@ -1,0 +1,1 @@
+{"uuid":"80c4de26-044c-4451-8f27-7108c088fe66","name":"demoOpenCard.TestCases.TC15_DeleteCategories_DD","children":["390f7f1e-c24a-4462-98d3-5564436a10bd"],"befores":[{"name":"SetUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1672075993631,"stop":1672075995678}],"afters":[],"start":1672075993576,"stop":1672076005374}

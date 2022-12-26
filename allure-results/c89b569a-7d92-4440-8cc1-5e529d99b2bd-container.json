@@ -1,0 +1,1 @@
+{"uuid":"c89b569a-7d92-4440-8cc1-5e529d99b2bd","name":"demoOpenCard.TestCases.TC12_TopNavBarLaptops","children":["7e8e9a1b-4109-4342-9cbb-1e78f4f4e60d"],"befores":[{"name":"SetUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1671886022032,"stop":1671886025265}],"afters":[],"start":1671886021985,"stop":1671886027070}

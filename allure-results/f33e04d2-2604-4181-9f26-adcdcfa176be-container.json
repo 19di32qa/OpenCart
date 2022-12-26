@@ -1,0 +1,1 @@
+{"uuid":"f33e04d2-2604-4181-9f26-adcdcfa176be","name":"OpenCard","children":["7e8e9a1b-4109-4342-9cbb-1e78f4f4e60d"],"befores":[{"name":"deleteScreens","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1671886022002,"stop":1671886022013}],"afters":[],"start":1671886021984,"stop":1671886027067}

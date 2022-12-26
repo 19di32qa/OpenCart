@@ -30,10 +30,10 @@ public class BaseClass {
         driver.manage().window().maximize();
         logger.info("Webdriver is started");
     }
-    @AfterClass
-    public void TearDown() {
-        driver.close();
-    }
+//    @AfterClass
+//    public void TearDown() {
+//        driver.close();
+//    }
     @AfterMethod
     public void Screens(ITestResult result) throws Exception {
         if (result.getStatus() == ITestResult.FAILURE) {
