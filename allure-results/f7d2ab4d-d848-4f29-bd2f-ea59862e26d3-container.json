@@ -1,0 +1,1 @@
+{"uuid":"f7d2ab4d-d848-4f29-bd2f-ea59862e26d3","name":"demoOpenCard.TestCases.TC_22_PaymentAddress","children":["4a9fda26-5f9e-498f-9559-ccca5eaefb9e"],"befores":[{"name":"SetSession","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1672671537030,"stop":1672671539303}],"afters":[],"start":1672671536996,"stop":1672671539534}

@@ -1,0 +1,1 @@
+{"uuid":"86f16e18-31a8-4f8f-b6c3-fdc566f7c98f","name":"demoOpenCard.TestCases.TC_21_GiveReward","children":["3d55ed4c-023c-40b5-83b6-950921b0c239"],"befores":[{"name":"SetSession","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1672669955252,"stop":1672669957602}],"afters":[],"start":1672669955217,"stop":1672669957847}

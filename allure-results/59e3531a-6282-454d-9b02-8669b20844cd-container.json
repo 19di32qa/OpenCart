@@ -1,0 +1,1 @@
+{"uuid":"59e3531a-6282-454d-9b02-8669b20844cd","name":"demoOpenCard.TestCases.TC16_CompareProducts","children":["5efc8f75-8a9d-41b9-82aa-807fb9e8c304"],"befores":[{"name":"SetUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1672149912692,"stop":1672149915026}],"afters":[],"start":1672149912641,"stop":1672149925398}
