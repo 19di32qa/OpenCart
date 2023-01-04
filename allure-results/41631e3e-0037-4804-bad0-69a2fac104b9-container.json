@@ -1,0 +1,1 @@
+{"uuid":"41631e3e-0037-4804-bad0-69a2fac104b9","name":"demoOpenCard.TestCases.TC23_DB_TestSchema","children":["48fe91fb-b13f-4b91-843e-576cd391eeac"],"befores":[{"name":"SetUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1672856552936,"stop":1672856553108}],"afters":[],"start":1672856552910,"stop":1672856553873}

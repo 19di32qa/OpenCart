@@ -1,0 +1,1 @@
+{"uuid":"9c56ee37-7cc6-488f-9b20-2ea7ca4ecee3","name":"demoOpenCard.TestCases.TC24_AddressViaDataBase","children":["ede3849f-ce30-442d-9634-f1be1132343c"],"befores":[{"name":"SetUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1672858298346,"stop":1672858298543}],"afters":[],"start":1672858298311,"stop":1672858298684}

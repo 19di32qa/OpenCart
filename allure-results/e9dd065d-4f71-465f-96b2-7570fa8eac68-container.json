@@ -1,0 +1,1 @@
+{"uuid":"e9dd065d-4f71-465f-96b2-7570fa8eac68","name":"demoOpenCard.TestCases.TC_25_AddAPI","children":["ee32e2b5-1e12-48a4-9270-b807691ee249"],"befores":[{"name":"SetUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1672861397720,"stop":1672861397895}],"afters":[],"start":1672861397693,"stop":1672861398031}

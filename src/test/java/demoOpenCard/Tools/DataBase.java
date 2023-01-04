@@ -6,8 +6,8 @@ import java.sql.*;
 
 public class DataBase {
     private  final String dataBaseUrl = "jdbc:mysql://127.0.0.1:3306/opencard";
-    Statement statement;
-    Connection connection;
+    public Statement statement;
+    public Connection connection;
     @BeforeClass
     public void SetUp() throws SQLException {
         connection = DriverManager.getConnection(dataBaseUrl,"root","");
